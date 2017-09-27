@@ -1,3 +1,0 @@
-// this is the new way to do JS development
-// everything gets wrapped in an object
-var myApp = {};
