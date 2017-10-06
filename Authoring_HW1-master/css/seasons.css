@@ -58,15 +58,28 @@ section { margin-top: 15px; background-color: #FFF; }
 .thumb { height: 90px; margin: 8px; cursor: pointer; }
 
 .lightbox {
+	font-family: 'Palatino', sans-serif;
 	position: absolute;
 	top: 0;
 	left: 0;
+	margin: 0, 0, 20px, 0;
 	width: 100%;
 	height: 100%;
 	display: none;
 	background-color: rgba(0, 0, 0, 0.85);
+	text-align: center;
 	color: white;
 	z-index: 500;}
+
+	.lightbox img{
+		max-width: 90%;
+		max-height: 90%;
+		border: 10px, 5px, 10px, 5px;
+	}
+
+	.lightbox p{
+		background-color: #565655;
+	}
 
   .close-lightbox {
 	float: right;
